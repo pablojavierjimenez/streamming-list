@@ -85,16 +85,16 @@ export default class Header extends Component {
         className="nav-link"
         style={styles.nav}
         >
-        <NavLink tabIndex="5" onClick={this.closeMenue} to="/favoritos">❤️</NavLink>
+        <NavLink tabIndex="1" onClick={this.closeMenue} to="/favoritos">❤️</NavLink>
         <NavLink tabIndex="2" onClick={this.closeMenue} to="/">Todo</NavLink>
         <NavLink tabIndex="3" onClick={this.closeMenue} to="/subcription">Subscripcion</NavLink>
-        <NavLink tabIndex="7" onClick={this.closeMenue} to="/gratis">Gratis</NavLink>
-        <NavLink tabIndex="8" onClick={this.closeMenue} to="/argentinos">Argentinos</NavLink>
-        <NavLink tabIndex="4" onClick={this.closeMenue} to="/musica">Musica</NavLink>
-        <NavLink tabIndex="4" onClick={this.closeMenue} to="/animacion">Animacion</NavLink>
-        <NavLink tabIndex="6" onClick={this.closeMenue} to="/en-espaniol">En Español</NavLink>
-        <NavLink tabIndex="6" onClick={this.closeMenue} to="/deporte">Deporte</NavLink>
-        <NavLink tabIndex="6" onClick={this.closeMenue} to="/tv-en-vivo">TV En vivo</NavLink>
+        <NavLink tabIndex="4" onClick={this.closeMenue} to="/gratis">Gratis</NavLink>
+        <NavLink tabIndex="5" onClick={this.closeMenue} to="/argentinos">Argentinos</NavLink>
+        <NavLink tabIndex="6" onClick={this.closeMenue} to="/musica">Musica</NavLink>
+        <NavLink tabIndex="7" onClick={this.closeMenue} to="/animacion">Animacion</NavLink>
+        <NavLink tabIndex="8" onClick={this.closeMenue} to="/en-espaniol">En Español</NavLink>
+        <NavLink tabIndex="9" onClick={this.closeMenue} to="/deporte">Deporte</NavLink>
+        <NavLink tabIndex="10" onClick={this.closeMenue} to="/tv-en-vivo">TV En vivo</NavLink>
       </nav>
     </div>
     );

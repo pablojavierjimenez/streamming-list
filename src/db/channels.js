@@ -8,7 +8,7 @@ const channelList = [
     logo: "./youtube-1.png",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -19,7 +19,7 @@ const channelList = [
     logo: "./netflix.png",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -30,7 +30,7 @@ const channelList = [
     logo: "./prime-video.png",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -41,7 +41,7 @@ const channelList = [
     logo: "./hbo-max.png",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -52,7 +52,7 @@ const channelList = [
     logo: "./disney-plus.png",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -63,7 +63,7 @@ const channelList = [
     logo: "./star-plus.png",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -74,7 +74,7 @@ const channelList = [
     logo: "./paramount-plus.png",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -85,7 +85,7 @@ const channelList = [
     logo: "./apple-tv.png",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 3,
@@ -96,7 +96,7 @@ const channelList = [
     logo: "./spotify.png",
     costo: "gratis o subscripcion",
     tipo: ["subscripcion", "musica"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -107,7 +107,7 @@ const channelList = [
     logo: "./crunchyroll.png",
     costo: "gratis o subscripcion",
     tipo: ["subscripcion", "animacion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -118,9 +118,9 @@ const channelList = [
     logo: "./canal8-mdq-2022.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
-    {
+  {
     rating: 5,
     title: "Canal 10 MDP",
     description: "",
@@ -129,7 +129,18 @@ const channelList = [
     logo: "./canal-10-mdq-2.jpg",
     costo: "gratis",
     tipo: ["in-spanish", "argentino"],
-    isFavorite: false
+    isFavorite: false,
+  },
+  {
+    rating: 5,
+    title: "Teatro Tv (Teatrix)",
+    description: "",
+    url: "https://tele.teatrix.com/",
+    info: "https://teatrix.com/noticias",
+    logo: "./teatrix-tv-vivo.png",
+    costo: "gratis",
+    tipo: ["gratis", "in-spanish", "argentino"],
+    isFavorite: false,
   },
   {
     rating: 4,
@@ -140,7 +151,7 @@ const channelList = [
     logo: "./mi-telefe.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 4,
@@ -151,7 +162,7 @@ const channelList = [
     logo: "./elnueve-bsas-ar.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 4,
@@ -162,7 +173,7 @@ const channelList = [
     logo: "./america-tv.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -173,7 +184,7 @@ const channelList = [
     logo: "./Twitch.png",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 4,
@@ -184,7 +195,7 @@ const channelList = [
     logo: "./cont.ar.png",
     costo: "gratis",
     tipo: ["gratis", "in-spanish", "argentino"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 4,
@@ -195,7 +206,7 @@ const channelList = [
     logo: "./cont.ar.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 4,
@@ -206,7 +217,7 @@ const channelList = [
     logo: "./cinear-play-1.png",
     costo: "gratis",
     tipo: ["gratis", "in-spanish", "argentino"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -217,7 +228,7 @@ const channelList = [
     logo: "./pluto-tv.png",
     costo: "gratis",
     tipo: ["gratis", "in-spanish"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -228,7 +239,7 @@ const channelList = [
     logo: "./vix-tv.jpg",
     costo: "gratis",
     tipo: ["gratis", "in-spanish", "mexico"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -238,8 +249,8 @@ const channelList = [
     info: "",
     logo: "./wetv.jpg",
     costo: "gratis",
-    tipo: ["gratis", "in-spanish", "china"],
-    isFavorite: false
+    tipo: ["gratis", "china"],
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -250,7 +261,7 @@ const channelList = [
     logo: "./playz.png",
     costo: "gratis",
     tipo: ["gratis", "in-spanish", "españa"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -261,7 +272,7 @@ const channelList = [
     logo: "./canela-tv.png",
     costo: "gratis",
     tipo: ["gratis", "in-spanish"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -272,7 +283,7 @@ const channelList = [
     logo: "./OctubreTv.png",
     costo: "gratis",
     tipo: ["gratis", "in-spanish"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -283,18 +294,18 @@ const channelList = [
     logo: "./cuevana-3.png",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
     title: "pelisplus (estrenos)",
     description: "",
-    url: "https://pelisplus.io/peliculas/estreno/",
+    url: "https://pelisplus.lat",
     info: "",
     logo: "./pelisplus-1.png",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -305,7 +316,7 @@ const channelList = [
     logo: "./pelis-flix.png",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -316,7 +327,7 @@ const channelList = [
     logo: "./gnula-serie.png",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -327,7 +338,7 @@ const channelList = [
     logo: "./gnula-pelis.jpg",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -338,7 +349,7 @@ const channelList = [
     logo: "./animeblix-2.png",
     costo: "gratis",
     tipo: ["animacion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -349,7 +360,7 @@ const channelList = [
     logo: "./anime-flv-1.png",
     costo: "gratis",
     tipo: ["animacion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -360,7 +371,7 @@ const channelList = [
     logo: "./ver-anime_org.png",
     costo: "gratis",
     tipo: ["animacion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -371,8 +382,8 @@ const channelList = [
     logo: "./anime-onegai.png",
     costo: "gratis",
     tipo: ["animacion"],
-    isFavorite: false
-  }, 
+    isFavorite: false,
+  },
   {
     rating: 0,
     title: "LA. Cartoons",
@@ -382,7 +393,7 @@ const channelList = [
     logo: "./kids-tv.jpg",
     costo: "gratis",
     tipo: ["animacion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -393,62 +404,62 @@ const channelList = [
     logo: "./kids-tv-peliculas.jpg",
     costo: "gratis",
     tipo: ["animacion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
     title: "Disney Channel",
     description: "",
-    url: "https://www.ver-television.online/canal-disney-channel-en-vivo",
+    url: "https://canales.online/en-vivo/disney-channel/",
     info: "",
     logo: "./Disney-channel.png",
     costo: "gratis",
     tipo: ["animacion", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
     title: "Cartoon Network (vivo)",
     description: "",
-    url: "https://www.ver-television.online/canal-cartoon-network-en-vivo",
+    url: "https://cnapp.cartoonnetwork.com.ar/now/freelive1",
     info: "",
     logo: "./cartoon-network.png",
     costo: "gratis",
     tipo: ["animacion", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
-    title: "Boomerang (vivo)",
+    title: "Boing (vivo)",
     description: "",
-    url: "https://www.ver-television.online/canal-boomerang-en-vivo",
+    url: "https://www.telegratishd.com/boing-en-vivo.html",
     info: "",
-    logo: "./boomerang.png",
+    logo: "./boing-tv.png",
     costo: "gratis",
     tipo: ["animacion", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
     title: "nikelodeon (vivo)",
     description: "",
-    url: "https://www.ver-television.online/canal-nick-en-vivo",
+    url: "https://canales.online/en-vivo/nick/",
     info: "",
     logo: "./nikelodeon.png",
     costo: "gratis",
     tipo: ["animacion", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
     title: "ver-television",
     description: "",
-    url: "https://www.ver-television.online/",
+    url: "https://canales.online/",
     info: "",
     logo: "./tv-libre.png",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -459,7 +470,7 @@ const channelList = [
     logo: "./tv-ipod-icon.jpg",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -470,7 +481,7 @@ const channelList = [
     logo: "./argentina-tv-hd.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "youtube"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -481,7 +492,7 @@ const channelList = [
     logo: "./youtube-music.png",
     costo: "gratis o subscripcion",
     tipo: ["subscripcion", "musica"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -492,7 +503,7 @@ const channelList = [
     logo: "./RadiosArg.Net.png",
     costo: "gratis",
     tipo: ["argentino", "musica"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -503,7 +514,7 @@ const channelList = [
     logo: "./radios-argentina.png",
     costo: "gratis",
     tipo: ["argentino", "musica"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -514,7 +525,7 @@ const channelList = [
     logo: "./conciertos-clasicos.png",
     costo: "gratis",
     tipo: ["musica", "youtube"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -525,7 +536,7 @@ const channelList = [
     logo: "./rock.jpg",
     costo: "gratis",
     tipo: ["musica"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 1,
@@ -536,7 +547,7 @@ const channelList = [
     logo: "./deportv.jpg",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "deporte", "youtube"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 1,
@@ -547,7 +558,7 @@ const channelList = [
     logo: "./redbull-tv.png",
     costo: "gratis",
     tipo: ["gratis", "deporte"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 1,
@@ -558,7 +569,7 @@ const channelList = [
     logo: "./FMS-24hs.jpg",
     costo: "gratis",
     tipo: ["in-spanish", "gratis", "deporte", "youtube"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 1,
@@ -568,8 +579,8 @@ const channelList = [
     info: "",
     logo: "./Plex.webp",
     costo: "gratis",
-    tipo: ["gratis","in-english"],
-    isFavorite: false
+    tipo: ["gratis", "in-english"],
+    isFavorite: false,
   },
   {
     rating: 1,
@@ -580,7 +591,7 @@ const channelList = [
     logo: "./ororo-tv.jpg",
     costo: "gratis",
     tipo: ["gratis"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -591,7 +602,7 @@ const channelList = [
     logo: "./Qubit-tv.png",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -602,7 +613,7 @@ const channelList = [
     logo: "./directv-go.png",
     costo: "subscripcion",
     tipo: ["subscripcion", "in-spanish", "argentino"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -613,7 +624,7 @@ const channelList = [
     logo: "./teatrix.png",
     costo: "subscripcion",
     tipo: ["subscripcion", "in-spanish", "argentino"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -624,9 +635,9 @@ const channelList = [
     logo: "./Udemy.webp",
     costo: "subscripcion",
     tipo: ["subscripcion"],
-    isFavorite: false
+    isFavorite: false,
   },
- 
+
   {
     rating: 5,
     title: "TV Publica",
@@ -636,7 +647,7 @@ const channelList = [
     logo: "./TV-Publica.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "youtube"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -647,7 +658,7 @@ const channelList = [
     logo: "./canal-encuentro.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "youtube"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 5,
@@ -658,7 +669,7 @@ const channelList = [
     logo: "./paka-paka.jpeg",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "animacion"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -669,7 +680,7 @@ const channelList = [
     logo: "./dw-documentales.jpg",
     costo: "gratis",
     tipo: ["in-spanish", "youtube"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 3,
@@ -680,7 +691,7 @@ const channelList = [
     logo: "./cronica-tv.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "youtube", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -691,7 +702,7 @@ const channelList = [
     logo: "./TN-vivo.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -702,7 +713,7 @@ const channelList = [
     logo: "./c5n.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "youtube", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -713,7 +724,7 @@ const channelList = [
     logo: "./la-nacion.png",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "youtube", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -724,7 +735,7 @@ const channelList = [
     logo: "./canal-26.jpg",
     costo: "gratis",
     tipo: ["in-spanish", "argentino", "youtube", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
 
   {
@@ -736,7 +747,7 @@ const channelList = [
     logo: "./TyC_Sports.webp",
     costo: "gratis",
     tipo: ["in-spanish", "deporte", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -747,7 +758,7 @@ const channelList = [
     logo: "./espn.png",
     costo: "gratis",
     tipo: ["in-spanish", "deporte", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -758,7 +769,7 @@ const channelList = [
     logo: "./fox-sports.png",
     costo: "gratis",
     tipo: ["in-spanish", "deporte", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -769,7 +780,7 @@ const channelList = [
     logo: "./directv-sport.png",
     costo: "gratis",
     tipo: ["in-spanish", "deporte", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -780,7 +791,7 @@ const channelList = [
     logo: "./axn-tv.png",
     costo: "gratis",
     tipo: ["in-spanish", "gratis", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -791,7 +802,7 @@ const channelList = [
     logo: "./warner-channel.png",
     costo: "gratis",
     tipo: ["in-spanish", "gratis", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -802,7 +813,7 @@ const channelList = [
     logo: "./universal-tv.png",
     costo: "gratis",
     tipo: ["in-spanish", "gratis", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -813,7 +824,7 @@ const channelList = [
     logo: "./sony-channel.webp",
     costo: "gratis",
     tipo: ["in-spanish", "gratis", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 2,
@@ -825,7 +836,7 @@ const channelList = [
     logo: "./syfy-channel.png",
     costo: "gratis",
     tipo: ["in-spanish", "gratis", "tv-en-vivo"],
-    isFavorite: false
+    isFavorite: false,
   },
   // {
   //   rating: 0,
@@ -848,7 +859,7 @@ const channelList = [
     logo: "./whatsApp.png",
     costo: "gratis",
     tipo: ["app"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -860,7 +871,7 @@ const channelList = [
     logo: "./instagram.webp",
     costo: "gratis",
     tipo: ["app"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -872,7 +883,7 @@ const channelList = [
     logo: "./tik-tok.png",
     costo: "gratis",
     tipo: ["app"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -884,7 +895,7 @@ const channelList = [
     logo: "./facebook.webp",
     costo: "gratis",
     tipo: ["app"],
-    isFavorite: false
+    isFavorite: false,
   },
   {
     rating: 0,
@@ -896,7 +907,7 @@ const channelList = [
     logo: "./twitter.jpg",
     costo: "gratis",
     tipo: ["app"],
-    isFavorite: false
+    isFavorite: false,
   },
 ];
 export default channelList;

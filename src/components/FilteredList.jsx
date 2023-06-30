@@ -9,6 +9,8 @@ class FilteredList extends Component {
   render() {
     const channelListFromStorage = JSON.parse(localStorage.getItem("channelList"));
     const {filterBy} =  this.props;
+    window.scrollTo(0, 0);
+    console.log('PAPAPAPAPAS');
     return (
       <main className="App">
         <Header />
