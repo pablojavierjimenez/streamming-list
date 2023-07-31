@@ -1,5 +1,36 @@
 # Getting Started with Create React App
 
+---------------
+
+## subir a internet
+
+```
+npm install -g firebase-tools
+
+npm install
+
+npm run build
+
+firebase deploy
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
