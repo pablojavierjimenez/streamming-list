@@ -1,5 +1,28 @@
 # Getting Started with Create React App
 
+- Node.js v16.20.2
+- npm 8.19.4
+- npm i firebase-tools@12.9.1
+---------------
+
+## subir a internet
+
+```
+npm i firebase-tools@12.9.1 -g
+
+npm installv
+
+firebase login
+
+npm run build
+
+firebase deploy
+```
+hola
+
+
+------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

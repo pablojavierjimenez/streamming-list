@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #7dbbd9;
+  background-color: #618595;
 }
 
 .App-logo {
@@ -25,6 +25,10 @@
   color: white;
 }
 
+.displayMenu {
+  display: none;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -34,15 +38,25 @@ h4 {
   margin: 0 0 16px 0;
 }
 
+.nav-link {
+  display: flex;
+  width: 100%;
+}
 .nav-link a {
-  display: block;
+    display: block;
     box-sizing: border-box;
-    width: calc(100vw / 7);
+    width: 100%;
     text-decoration: none;
     padding: 4px;
     background-color: #1f1933;
     color: white;
     vertical-align: middle;
+}
+.listName {
+  text-align: center;
+  color: #61dafb;
+  font-weight: normal;
+  display: none;
 }
 
 .nav-link a:hover {
@@ -56,6 +70,51 @@ h4 {
   background-color: #f7f7f7;
   color: #000000;
   font-weight: 500;
+}
+
+@media (max-width: 420px) {
+  .Header{
+    background-color: rgb(22, 53, 110);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+  .App-header {
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+  .listName {
+    text-align: center;
+    color: #61dafb;
+    font-weight: normal;
+    display: block;
+  }
+  .displayMenu {
+    display: block;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+  }
+  .displayMenu div{
+    height: 4px;
+    background-color: #ffffff;
+    margin-bottom: 4px;
+  }
+  .nav-link {
+    display: none;
+    flex-flow: wrap;
+    background-color: lightseagreen;
+  }
+  .nav-link a {
+    width: 50%;
+    padding: 16px;
+  }
 }
 
 .ChannelItem:hover {

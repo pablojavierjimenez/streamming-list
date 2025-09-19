@@ -3,45 +3,45 @@ import FavoriteButton from "../FavoriteButton/FavoriteButton";
 
 const imagesFolder = require.context("../../assets/img/", true);
 export default class ChannelItem extends Component {
-  styles = {
-    ChannelItem: {
-      borderRadius: "4px",
-      boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.25)",
-      backgroundColor: "white",
-      padding: "20px 20px 10px",
-      maxWidth: "200px",
-      maxHeight: "300px",
-      minHeight: "250px",
-      margin: "24px 32px 24px 24px",
-      display: "inline-block",
-    },
-    info: {
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      padding: "0 0 4px",
-      height: "30px",
-    },
-    infoButton: {
-      padding: "4px",
-      border: "1px solid black",
-      margin: "4px 0",
-      color: "white",
-      backgroundColor: "#16356e",
-      fontWeight: "bold",
-      textDecoration: "none",
-      textTransform: "capitalize",
-      fontSize: "12px",
-      borderRadius: "4px",
-      visibility: "visible",
-    },
-    logo: {
-      width: "200px",
-      height: "200px",
-      borderRadius: "30px",
-    },
-  };
+  
   render() {
+    let styles = {
+      ChannelItem: {
+        borderRadius: "4px",
+        boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.25)",
+        backgroundColor: "white",
+        padding: "20px 20px 10px",
+        maxWidth: "200px",
+        maxHeight: "300px",
+        minHeight: "250px",
+        margin: "24px 32px 24px 24px",
+        display: "inline-block",
+      },
+      info: {
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "0 0 4px",
+        height: "30px",
+      },
+      infoButton: {
+        padding: "4px",
+        border: "1px solid black",
+        margin: "4px 0",
+        color: "white",
+        backgroundColor: "#16356e",
+        fontWeight: "bold",
+        textDecoration: "none",
+        textTransform: "capitalize",
+        fontSize: "12px",
+        borderRadius: "4px"
+      },
+      logo: {
+        width: "200px",
+        height: "200px",
+        borderRadius: "30px",
+      },
+    };
     let { channel, updateParentState } = this.props;
     let favorites = JSON.parse(localStorage.getItem("FavoritesChannels"));
 
@@ -55,16 +55,24 @@ export default class ChannelItem extends Component {
     //   // });
     // });
 
+    /**
+     * TODO: arreglar el boton de info aca, y luego descomentar la linea 85 a 92
+     */
+    
+    if (channel.info !== "") {
+      console.log(`Mostrar: ${channel.title}`);
+      styles.infoButton.visibility = "visible";
+    } else {
+      styles.infoButton.visibility = "hidden";
 
-    this.styles.infoButton.visibility =
-      channel.info !== "" ? "visible" : "hidden";
+    }
 
     const itemClassName = `ChannelItem ${channel.costo}`;
 
     return (
       <div
         className={itemClassName}
-        style={this.styles.ChannelItem}
+        style={styles.ChannelItem}
         tabIndex={channel.id + 8}
       >
         <div className="ChannelItem__info">
@@ -74,16 +82,16 @@ export default class ChannelItem extends Component {
           <a href={channel.url} target={channel.title}>
             <img
               src={imagesFolder(channel.logo)}
-              style={this.styles.logo}
+              style={styles.logo}
               alt={channel.title}
             />
           </a>
         </div>
-        <small style={this.styles.info}>
+        <small style={styles.info}>
           <a
             href={channel.info}
             rel="noreferrer"
-            style={this.styles.infoButton}
+            style={styles.infoButton}
             target="_blank"
           >
             noticias

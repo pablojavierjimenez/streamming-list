@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <main className="App">
         <Header />
-        <ItemList channels={channelListFromStorage} />
+        <ItemList channels={channelListFromStorage} sortItems={false}/>
       </main>
     );
   }
