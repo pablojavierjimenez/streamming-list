@@ -11,7 +11,7 @@ import FilteredList from "./components/FilteredList";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-let actualWebVersion =  Math.floor(Math.random() * 10000);
+let actualWebVersion = 20250428//Math.floor(Math.random() * 10000);
 let actualWebVersionFromStorage = JSON.parse(localStorage.getItem("actualWebVersion"));
 
 if (actualWebVersion === actualWebVersionFromStorage) {

@@ -45,7 +45,8 @@ const styles = {
     backgroundColor: "#1f1933",
     color: "white",
     verticalAlign: "middle",
-  }
+  },
+  live: {bacgroundColor:"#ff0000"}
 };
 
 export default class Header extends Component {
@@ -94,7 +95,7 @@ export default class Header extends Component {
         <NavLink tabIndex="7" onClick={this.closeMenue} to="/animacion">Animacion</NavLink>
         <NavLink tabIndex="8" onClick={this.closeMenue} to="/en-espaniol">En Español</NavLink>
         <NavLink tabIndex="9" onClick={this.closeMenue} to="/deporte">Deporte</NavLink>
-        <NavLink tabIndex="10" onClick={this.closeMenue} to="/tv-en-vivo">TV En vivo</NavLink>
+        <NavLink tabIndex="10" onClick={this.closeMenue} to="/tv-en-vivo" >TV En vivo</NavLink>
       </nav>
     </div>
     );

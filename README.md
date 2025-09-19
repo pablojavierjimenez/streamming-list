@@ -1,31 +1,23 @@
 # Getting Started with Create React App
 
+- Node.js v16.20.2
+- npm 8.19.4
+- npm i firebase-tools@12.9.1
 ---------------
 
 ## subir a internet
 
 ```
-npm install -g firebase-tools
+npm i firebase-tools@12.9.1 -g
 
-npm install
+npm installv
+
+firebase login
 
 npm run build
 
 firebase deploy
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
