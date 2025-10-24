@@ -8,18 +8,16 @@
 ## subir a internet
 
 ```
-npm i firebase-tools@12.9.1 -g
+nvm install v16.20.2
+nvm use v16.20.2
 
-npm installv
+npm i firebase-tools@12.9.1 -g
+npm install
 
 firebase login
-
 npm run build
-
 firebase deploy
 ```
-hola
-
 
 ------------
 
